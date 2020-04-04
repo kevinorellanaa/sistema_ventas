@@ -1,0 +1,11 @@
+{% extends "admin/base.html" %}
+{% load static %}
+{% block title %} {{ title }}{% endblock %}
+
+{% block branding %}
+<a href="{% url 'admin:index' %}">
+        <img src="{% static 'logo.png' %}" height="50px" />
+    </a>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
