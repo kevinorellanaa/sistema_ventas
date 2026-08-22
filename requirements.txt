@@ -4,7 +4,6 @@ diff-match-patch==20181111
 Django==3.0.3
 django-import-export==2.0.1
 et-xmlfile==1.0.1
-freeze==1.0.10
 gunicorn==20.0.4
 jdcal==1.4.1
 MarkupPy==1.14
